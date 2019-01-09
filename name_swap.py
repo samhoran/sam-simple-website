@@ -6,7 +6,7 @@ with open(filename, 'r') as read_file:
 
 with open(filename, 'w') as write_file:
 	for line in content:
-		# I don't want to have it change Sherlock to John only to have it change right back, so I'll do it in steps
+		# I don't want to have it change Sherlock to John only to have it change right back, so I'll do it in steps. Why I chose to call things a### I don't know.
 		line = line.replace('Sherlock','a123')
 		line = line.replace('SHERLOCK','JOHN')
 		line = line.replace('HOLMES','WATSON')
